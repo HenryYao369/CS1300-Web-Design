@@ -1,0 +1,10 @@
+In ActivityA
+-get image in img folder to show up
+-move dogeA.jpg into img folder too and make it show up again
+
+In activityB:
+- start at index.html; open it
+-fix the four links
+-The first link should go to pageone.html
+-The second link should go to pagetwo.html
+-The third and fourth link should lead to images
