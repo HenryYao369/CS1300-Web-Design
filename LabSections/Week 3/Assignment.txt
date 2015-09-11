@@ -1,0 +1,13 @@
+Assignment:
+
+1) Use the appropriate attribute to be able to make Header 1 and Header 2 the same style.
+2) Use the appropriate attribute to make the paragraph have its own style.
+3) Insert a new tag to be able to style all of Header 1, Header 2, Header 3, and Paragraph the same style.
+4) Change the href tag to be able to link to page 2.
+
+For an extra challenge, create a CSS file and do the following!
+1) Make the paragraph green
+2) Make Header 1 and Header 2 Bold.
+
+For more fun, play on this website:
+http://flukeout.github.io/
