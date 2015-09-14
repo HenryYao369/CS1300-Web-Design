@@ -1,0 +1,57 @@
+/****************************
+* Steve Paling              *
+* INFO/CS 1300              *
+* Fall 2015                 *
+****************************/
+
+/* a simple style sheet to demonstrate table styling */
+
+/* styling for large structural divs */
+body {
+	font-family: Verdana, Arial, sans-serif;
+    /* font-size: 0.95%; */
+}
+
+#container {
+	/* border: solid 1px red; */
+	margin-right: auto;
+	margin-left: auto;
+	width: 960px;
+}
+
+/* styling for standings table */
+#standings {
+	/* border: solid 1px black; */
+	border-collapse: collapse;
+}
+
+#standings th {
+    background-color: #ddd;
+    border: 0;
+	margin-right: 0;
+	margin-left: 0;
+    padding: 0.75em;
+}
+
+#standings td {
+	border: 0;
+	padding: 0.5em;
+    text-align: center;
+}
+
+#standings th:first-child {
+    padding-right: 2em;
+    padding-left: 1em;
+    text-align: left;
+}
+
+#standings td:first-child {
+    border-right: solid 1px #ddd;
+    padding-right: 2em;
+    padding-left: 1em;
+    text-align: left;
+}
+
+.even {
+    background-color: #eee;
+}

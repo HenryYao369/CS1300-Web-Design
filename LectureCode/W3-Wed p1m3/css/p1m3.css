@@ -1,0 +1,85 @@
+/*-------------------------------------------------*/
+/*------style sheet for p1m3-----------------------*/
+/*-------------------------------------------------*/
+
+/*-------------------------------------------------*/
+/*------global styling-----------------------------*/
+/*-------------------------------------------------*/
+
+/* global reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+a:link {
+    color: #342800;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #73AFB6;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+/*-------------------------------------------------*/
+/*------styling by section-------------------------*/
+/*-------------------------------------------------*/
+#banner {
+    background-color: #73AFB6;
+    font-family: Garamond, "Times New Roman", serif;
+    width: 100%;
+}
+
+#banner h1, h2 {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#banner h1 {
+    color: #ffffff;
+    font-size: 3.5em;
+}
+
+#banner h2 {
+    color: #E2DA99;
+    font-size: 2em;
+    padding-bottom: 15px;
+}
+
+#container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+}
+
+#nav {
+    border-bottom: solid 2px #342800;
+    font-family: Verdana, Arial, sans-serif;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#nav span {
+    padding-right: 10px;
+}
+
+#content img {
+    float: left;
+    margin-right: 15px;
+}
+
+#footer {
+    background-color: #5E9CA0;
+    height: 3em;
+    width: 100%;
+}
