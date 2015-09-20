@@ -1,0 +1,13 @@
+
+body{
+    /*reference: Head First HTML*/
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 10px 10px 10px 10px;
+    background-color: #ebfaff;
+}
+
+
+p {
+    color: brown;
+}
