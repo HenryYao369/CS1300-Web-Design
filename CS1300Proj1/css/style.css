@@ -9,5 +9,53 @@ body{
 
 
 p {
-    color: brown;
+    color: black;
 }
+
+#banner{
+    width: 100%;
+    /*background-color: #7dbeff;*/
+
+}
+
+#banner h1{
+    font-size: 3em;
+    font-family: cursive;
+    margin-top: auto;
+}
+
+#nav {
+    /*border-top:solid 2px #342800;*/
+    /*border-bottom: solid 2px #342800;*/
+    font-family: Helvetica Neue, Arial, sans-serif;
+    margin-bottom: 1em;
+    /*padding-top: 1em;*/
+    padding-bottom: 0.5em;
+}
+
+#nav span {
+    padding-right: 10px;
+}
+
+#nav a:link {
+    color: #342800;
+    text-decoration: none;
+}
+/*#nav a:visited{*/
+    /*color: #342800;*/
+/*}*/
+
+#nav a:hover {
+    /* color: #73AFB6; */
+    /* text-decoration: underline #73AFB6; */
+    border-bottom: solid 2px #73AFB6;
+}
+
+.bold {
+    font-weight: bold
+}
+.italic {
+    font-style: italic;
+}
+
+
