@@ -1,20 +1,58 @@
 
+
+/*-------------------------------------------------*/
+/*------global styling-----------------------------*/
+/*-------------------------------------------------*/
+
+/* global reset */
+* {
+    margin: 0px;
+    /*padding: 0px;*/
+}
+
 body{
-    /*reference: Head First HTML*/
-    margin-right: 10%;
-    margin-left: 10%;
-    padding: 10px 10px 10px 10px;
-    background-color: #ebfaff;
+    /*intend to add more here in the future*/
 }
 
 
 p {
     color: black;
+    margin-bottom: 1em;
 }
 
+h2 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+h1.subtitle {
+    margin-bottom: 0.5em;
+}
+
+ul {
+    margin-bottom: 0.3em;
+}
+
+.bold {
+     font-weight: bold
+ }
+
+.italic {
+    font-style: italic;
+}
+
+/*-------------------------------------------------*/
+/*------styling by section-------------------------*/
+/*-------------------------------------------------*/
+
 #banner{
+    margin: 0px;
+    padding: 0px;
+    margin-right: auto;
+    margin-left: auto;
     width: 100%;
-    /*background-color: #7dbeff;*/
+
+    background-color: black;
 
 }
 
@@ -22,40 +60,52 @@ p {
     font-size: 3em;
     font-family: cursive;
     margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    color:white;
+
 }
 
 #nav {
     /*border-top:solid 2px #342800;*/
     /*border-bottom: solid 2px #342800;*/
-    font-family: Helvetica Neue, Arial, sans-serif;
+    font-family: "Helvetica Neue", Arial, sans-serif;
     margin-bottom: 1em;
     /*padding-top: 1em;*/
     padding-bottom: 0.5em;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #nav span {
-    padding-right: 10px;
+    padding-right: 30px;
 }
 
 #nav a:link {
-    color: #342800;
+    color:#999;
     text-decoration: none;
 }
-/*#nav a:visited{*/
-    /*color: #342800;*/
-/*}*/
+#nav a:visited{
+    color:#999;
+}
 
 #nav a:hover {
     /* color: #73AFB6; */
     /* text-decoration: underline #73AFB6; */
-    border-bottom: solid 2px #73AFB6;
+    /*border-bottom: solid 2px #73AFB6;*/
+    color: yellow;
 }
 
-.bold {
-    font-weight: bold
-}
-.italic {
-    font-style: italic;
+#container {
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 10px 10px 10px 10px;
+
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*max-width: 1000px;*/
 }
 
 
