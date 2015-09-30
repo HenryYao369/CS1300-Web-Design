@@ -1,0 +1,19 @@
+/*-------------------------------------------------*/
+/*------print style sheet for printcss.htm---------*/
+/*-------------------------------------------------*/
+
+/* give the banner a border */
+#banner {
+    border-bottom: solid 2px black;
+    margin-bottom: 2em;
+}
+
+/* no navigation needed on paper */
+#globalNav, #localNav {
+    display: none;
+}
+
+/* move to normal print margins */
+#content {
+    width: 100%;
+}

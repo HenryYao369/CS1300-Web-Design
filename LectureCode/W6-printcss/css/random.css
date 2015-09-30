@@ -1,5 +1,5 @@
 /*-------------------------------------------------*/
-/*------style sheet for p1m3-----------------------*/
+/*------style sheet for printcss.htm---------------*/
 /*-------------------------------------------------*/
 
 /*-------------------------------------------------*/
@@ -17,53 +17,36 @@ body {
 }
 
 p {
+    display: block;
     margin-bottom: 1em;
-}
-
-ul.example {
-    font-size: 1.5em;
-    margin-left: 2em;
 }
 
 /* responsive image code adapted from http://tutorials.jenkov.com/responsive-mobile-friendly-web-design/responsive-images.html */
 img.responsive {
-    max-width: 100%;  /*100 of the parent div*/
+    /* width: 100%; */
+    max-width: 300px;
     height: auto;
+    margin: auto;
 }
 
 .imageHolder {
     /* border: solid 2px black; */
-    height: 350px;
-    width: 220px;
+    clear: both;
+    max-width: 300px;
+    margin-right: auto; 
     margin-bottom: 1em;
-    position: relative;   /*relative to the parent div*/
+    margin-left: auto;
     text-align: center;
 }
 
-.imageOverlay {
-    /* border: solid 1px red; */
-    background-color: rgba(115, 175, 182, 0.9);
-    color: #ffffff;
-    font-size: 1.5em;
-    position: absolute;
-    /* top: 255; */
-    top: 240px;
-    left: 0px;
-    text-align: left;
-    width: 100%;
-    z-index: 10;
-}
-
-.imageOverlay p {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 5px;
-}
-
 p.caption {
+    /* border: solid 2px red; */
+    clear: both;
     font-family: Verdana, Arial, sans-serif;
     font-size: 0.9em;
-    padding-top: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0.5em;
 }
 
 /*-------------------------------------------------*/
@@ -98,7 +81,7 @@ p.caption {
     max-width: 960px;
 }
 
-#nav {
+#globalNav {
     border-bottom: solid 2px #342800;
     font-family: Verdana, Arial, sans-serif;
     margin-bottom: 1em;
@@ -106,28 +89,42 @@ p.caption {
     padding-bottom: 1em;
 }
 
-#nav span {
+#globalNav span {
     padding-right: 10px;
 }
 
-#nav a:link {
+#globalNav a:link {
     color: #342800;
     text-decoration: none;
 }
 
-#nav a:hover {
+#globalNav a:hover {
     /* color: #73AFB6; */
     /* text-decoration: underline #73AFB6; */
     border-bottom: solid 2px #73AFB6;
 }
 
-#content img {
+#localNav {
     float: left;
-    margin-right: 15px;
+    height: 100%;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+#localNav ul {
+    list-style-type: none;
+}
+
+#content {
+    float: right;
+    width: 80%;
 }
 
 #footer {
     background-color: #5E9CA0;
-    height: 3em;
+    clear: both;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
     width: 100%;
 }
