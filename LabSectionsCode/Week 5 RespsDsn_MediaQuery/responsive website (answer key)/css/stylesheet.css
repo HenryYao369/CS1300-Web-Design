@@ -1,0 +1,92 @@
+/* == Reset == */
+html, body {
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+}
+/* == Menu == */
+
+#nav {
+    background-color: #b31b1b;
+    font-size: 22px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 auto;
+    width: 100%;
+}
+#nav ul {
+    display: table;
+    list-style-type: none;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+}
+#nav li {
+    float: left;
+    margin: 0 auto;
+	text-align: center;
+	width: 150px;
+}
+#nav a:link,
+#nav a:visited {
+    background-color: #b31b1b;
+	color: white;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+    width: 150px;
+}
+#nav a:hover,
+#nav a:active{
+    background-color: #D33939;
+    transition: 0.3s;
+}
+
+/* == Content == */
+#content {
+	margin: 140px;
+	width: 80%;
+}
+#space-jam {
+	display: block;
+	float: left;
+	height: 514px;
+	padding: 5px;
+	width: 342px;
+}
+
+/* == Media Queries == */
+
+/* Space Jam Poster Change */
+@media (max-width: 800px) {
+	#content {
+		font-size: 2em; /* em resizes like a percentage */
+		margin: 0; /* Remove existing margin */
+		width: 100%; /* Content takes up all width of parent */
+	}
+	#space-jam {
+		float: none; /* Cancel float */
+		margin: 0 auto; /* Center image */
+		padding: 0; /* Zero padding */
+		height: 80%; /* Height declaration */
+		width: 80%; /* Width declaration */
+	}
+}
+@media (max-width: 700px) {
+	#nav li {
+		width: 80px;
+	}
+	#nav a:link, #nav a:visited {
+		font-size: 12px;
+		width: 100%;
+	}
+}
+/* Font Size Change */
+@media (min-width: 800px) {
+	#content {
+		font-size: 25px;
+	}
+}
