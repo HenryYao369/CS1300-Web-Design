@@ -11,22 +11,27 @@ html, body {
     font-size: 22px;
     height: 60px;
     line-height: 60px;
-    margin: 0 auto;
+    margin: 0 auto; /* 0 is for top-bottom and auto for left-right */
+    /*  http://stackoverflow.com/questions/3170772/what-does-auto-do-in-margin0-auto  */
+    /*  说白了就一句话：上下为0，左右均分。是【惯用法】！【请记住】！ */
     width: 100%;
 }
 #nav ul {
-    display: table;
+    display: table; /*注意这个，罕见用法！*/
     list-style-type: none;
     margin: 0 auto;
     overflow: hidden;
     padding: 0;
 }
+
 #nav li {
     float: left;
     margin: 0 auto;
 	text-align: center;
 	width: 150px;
 }
+
+
 #nav a:link,
 #nav a:visited {
     background-color: #b31b1b;
@@ -39,6 +44,7 @@ html, body {
     transition: 0.3s;
     width: 150px;
 }
+
 #nav a:hover,
 #nav a:active{
     background-color: #D33939;
@@ -64,12 +70,14 @@ html, body {
 @media (max-width: 800px) {
 	#content {
 		font-size: 2em; /* em resizes like a percentage */
-		margin: 0; /* Remove existing margin */
+		margin: 0; /* Remove existing margin */ /* always good practice to remove margin when on mobile device!! */
 		width: 100%; /* Content takes up all width of parent */
 	}
 	#space-jam {
+
 		float: none; /* Cancel float */
-		margin: 0 auto; /* Center image */
+		margin: 0 auto; /* Center image */  /* ————这两行是关键！！ float margin(惯用法) 联合使用！！*/
+
 		padding: 0; /* Zero padding */
 		height: 80%; /* Height declaration */
 		width: 80%; /* Width declaration */

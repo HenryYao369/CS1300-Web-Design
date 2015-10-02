@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d50ea54c-507b-446a-b250-0bca09c3a951" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 5 RespsDsn_MediaQuery/non-responsive website/css/stylesheet.css" afterPath="$PROJECT_DIR$/Week 5 RespsDsn_MediaQuery/non-responsive website/css/stylesheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 6 RespsDsn_MediaQuery/non-responsive website/index.html" afterPath="$PROJECT_DIR$/Week 6 RespsDsn_MediaQuery/non-responsive website/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 6 RespsDsn_MediaQuery/non-responsive website/css/stylesheet.css" afterPath="$PROJECT_DIR$/Week 6 RespsDsn_MediaQuery/non-responsive website/css/stylesheet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 6 RespsDsn_MediaQuery/responsive website (answer key)/css/stylesheet.css" afterPath="$PROJECT_DIR$/Week 6 RespsDsn_MediaQuery/responsive website (answer key)/css/stylesheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CS1300Proj1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../CS1300Proj1/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LectureCode/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../LectureCode/.idea/workspace.xml" />
     </list>
     <ignored path="LabSections.iws" />
@@ -25,21 +30,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week 5 RespsDsn_MediaQuery/non-responsive website/css/stylesheet.css">
+      <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Week 6 RespsDsn_MediaQuery/responsive website (answer key)/css/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="53" column="18" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="18" />
+            <state vertical-scroll-proportion="-0.9230769">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Week 5 RespsDsn_MediaQuery/responsive website (answer key)/css/stylesheet.css">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week 6 RespsDsn_MediaQuery/non-responsive website/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.0366971">
-              <caret line="74" column="43" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="43" />
+            <state vertical-scroll-proportion="-2.5">
+              <caret line="4" column="72" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week 6 RespsDsn_MediaQuery/non-responsive website/css/stylesheet.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -50,6 +65,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Html5" />
         <option value="CSS File" />
       </list>
     </option>
@@ -67,6 +83,14 @@
         <option value="$PROJECT_DIR$/SectionWeek02Materials/activityB/index.html" />
         <option value="$PROJECT_DIR$/Week 4 p1m3/css/p1m3.css" />
         <option value="$PROJECT_DIR$/Week 5 RespsDsn_MediaQuery/non-responsive website/css/stylesheet.css" />
+        <option value="$PROJECT_DIR$/Week 6 RespsDsn_MediaQuery/responsive website (answer key)/index.html" />
+        <option value="$PROJECT_DIR$/Week 6 RespsDsn_MediaQuery/non-responsive website/index.html" />
+        <option value="$PROJECT_DIR$/Week 6 RespsDsn_MediaQuery/non-responsive website/css/stylesheet.css" />
+        <option value="$PROJECT_DIR$/test/css/css.html" />
+        <option value="$PROJECT_DIR$/test/css/css.css" />
+        <option value="$PROJECT_DIR$/test/test.html" />
+        <option value="$PROJECT_DIR$/test/css/style.css" />
+        <option value="$PROJECT_DIR$/Week 6 RespsDsn_MediaQuery/responsive website (answer key)/css/stylesheet.css" />
       </list>
     </option>
   </component>
@@ -123,7 +147,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Week 5 RespsDsn_MediaQuery" />
+              <option name="myItemId" value="Week 6 RespsDsn_MediaQuery" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -141,7 +165,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Week 5 RespsDsn_MediaQuery" />
+              <option name="myItemId" value="Week 6 RespsDsn_MediaQuery" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -163,7 +187,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Week 5 RespsDsn_MediaQuery" />
+              <option name="myItemId" value="Week 6 RespsDsn_MediaQuery" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -181,7 +205,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Week 5 RespsDsn_MediaQuery" />
+              <option name="myItemId" value="Week 6 RespsDsn_MediaQuery" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -200,6 +224,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="LabSectionsCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LabSectionsCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LabSectionsCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LabSectionsCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LabSectionsCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -216,13 +272,16 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../LabSections/Week 3/css" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.lab-W6-NonResponse">
+  <component name="RunManager" selected="JavaScript Debug.lab-W6-Response">
     <configuration default="false" name="index.html (3)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/LabSectionsCode/Week 4 p1m3/index.html">
       <method />
     </configuration>
@@ -273,10 +332,10 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="lab-W6-Response" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:63342/LabSectionsCode/Week 5 RespsDsn_MediaQuery/responsive website (answer key)/index.html">
+    <configuration default="false" name="lab-W6-Response" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:63342/LabSectionsCode/Week 6 RespsDsn_MediaQuery/responsive website (answer key)/index.html">
       <method />
     </configuration>
-    <configuration default="false" name="lab-W6-NonResponse" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:63342/LabSectionsCode/Week 5 RespsDsn_MediaQuery/non-responsive website/index.html">
+    <configuration default="false" name="lab-W6-NonResponse" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:63342/LabSectionsCode/Week 6 RespsDsn_MediaQuery/non-responsive website/index.html">
       <method />
     </configuration>
     <list size="6">
@@ -313,7 +372,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21721311" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21721311" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -613,34 +672,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week 5 RespsDsn_MediaQuery/non-responsive website/index.html">
+    <entry file="file://$PROJECT_DIR$/Week 6 RespsDsn_MediaQuery/responsive website (answer key)/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.028790787">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.30882353">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week 5 RespsDsn_MediaQuery/responsive website (answer key)/index.html">
+    <entry file="file://$PROJECT_DIR$/Week 6 RespsDsn_MediaQuery/non-responsive website/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6046065">
-          <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+        <state vertical-scroll-proportion="-2.5">
+          <caret line="4" column="72" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week 5 RespsDsn_MediaQuery/non-responsive website/css/stylesheet.css">
+    <entry file="file://$PROJECT_DIR$/test/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12820514">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22123894">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 6 RespsDsn_MediaQuery/non-responsive website/css/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="18" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="18" />
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week 5 RespsDsn_MediaQuery/responsive website (answer key)/css/stylesheet.css">
+    <entry file="file://$PROJECT_DIR$/Week 6 RespsDsn_MediaQuery/responsive website (answer key)/css/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.0366971">
-          <caret line="74" column="43" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="43" />
+        <state vertical-scroll-proportion="-0.9230769">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding />
         </state>
       </provider>

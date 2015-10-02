@@ -15,7 +15,7 @@ html, body {
     width: 100%;
 }
 #nav ul {
-    display: table;
+    display: table; /*注意这个*/
     list-style-type: none;
     margin: 0 auto;
     overflow: hidden;
@@ -68,3 +68,14 @@ html, body {
 * 
 * Make content div take up 100% width & have smaller font size (under 700 px)
 */
+
+@media (max-width: 800px) {
+    #space-jam{
+        float: none;
+
+    }
+
+}
+
+
+
