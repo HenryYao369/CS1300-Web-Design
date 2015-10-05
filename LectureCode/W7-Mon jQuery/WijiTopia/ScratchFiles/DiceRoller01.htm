@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- A simple page to roll some dice. Incomplete, just playing with JQuery -->
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Wijitopia -- Dice Roller</title>
+	<link rel="stylesheet" href="WijiTopia01.css">
+	<script src="../jQuery/jquery-1.10.2.js"></script>
+	<script>
+		// Don't forget the document.ready function!!!
+		$(document).ready(function() {
+		    $("#rollButton").click(function() {
+		        $("#die_0").hide(500);
+		        return false; // this works, but prevents event bubbling.
+		    });
+		});
+	</script>
+<body>
+<div id="main">
+
+	<div id="banner">
+		<img id="wijitBanner" src="images/WijitopiaInnerBanner01.png" alt="Wijitopia: Your 24/7 Source for Widgets" width="250" height="74">
+	</div> <!-- end of banner div -->
+	
+	<img src="images/DiceRoller01.png" alt="Dice Roller" width="302" height="60">
+	
+	<div id="rollFormDiv"> <!-- form choosing the number of dice and rolling them -->
+	    <form>
+	        <p>Roll those bones! Choose the number of dice you want to roll, then press Roll!</p>
+	        <select id="diceNumber">
+	            <option value="1">1</option>
+	            <option value="2">2</option>
+	            <option value="3">3</option>
+	         </select>
+	        <button id="rollButton">Roll!</button>
+	    </form>
+	</div> <!-- end of formDiv -->
+	
+	<div id="diceDiv"> <!-- div for displaying the rolled dice -->
+	    <img id="die_0" src="images/die_0.png" alt="blank die" width="90" height="88">
+	    <img id="die_1" src="images/die_1.png" alt="blank die" width="90" height="88">
+	</div> <!-- end of diceDiv -->
+	
+	<div id="footer">
+		<img src="images/ValidHTML5.jpg" alt="Valid HTML5" width="83" height="31">
+		<img src="images/ValidCSS.gif" alt="Valid CSS" width="83" height="31">
+		<img src="images/php-power-white.gif" alt="PHP" width="88" height="31">
+	</div> <!-- end of footer div -->
+	
+</div> <!-- end of main div -->
+
+</body>
+</html>
+

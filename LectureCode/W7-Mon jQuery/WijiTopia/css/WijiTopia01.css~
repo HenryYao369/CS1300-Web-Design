@@ -1,0 +1,83 @@
+/* A style sheet for Wijitopia */
+
+body {
+	background-color: #ffffff;
+	color: #303116;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+#main {
+	margin: 2em;
+	width: 800px;
+}
+
+#banner {
+	border-bottom: solid 1px #303116;
+}
+
+#wijitTable {
+	/* border: solid 1px #cdd194; */
+	background-color: #ffffff;
+	font-family: Verdana, Arial, "sans-serif";
+	width: 800px;
+}
+
+/*
+#wijitTable > tr,th,td {
+	border: solid 1px #cdd194;
+}
+*/
+
+#wijitTable td {
+	/* background-color: #cdcdcd; */
+	border-top: solid 1px #cdd194;
+	text-align: center;
+	/* border-bottom: solid 1px #cdd194; */
+}
+
+#footer {
+	/* border-top: solid 1px #cdd194; */
+	margin-top: 5em;
+	padding-top: 1em;
+}
+
+#footer img {
+	margin-right: 1em;
+	vertical-align: top;
+}
+
+
+/* Begin elements for the dice roller page */
+#rollFormDiv {
+    font-size: 1.2em;
+}
+
+#diceDiv {
+    height: 88px;
+    margin-top: 4em;
+    /* border: solid 1px #cdcdcd; */
+}
+
+#diceDiv > img {
+    /* display: none; */
+    margin: 2px;
+    margin-right: 5px;
+}
+/* End elements for the dice roller page */
+
+
+/* Begin elements for the craters page */
+#canvasDiv {
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#basicCanvas {
+    border: 1px solid #000000;
+    background-color: #d7ddd2;
+
+}
+/* Begin elements for the craters page */
+
+

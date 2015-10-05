@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Basic Canvas with a Rectangle</title>
+
+	<style type="text/css">
+		#basicCanvas {
+			border: 1px solid #000000;
+		}
+	</style>
+</head>
+<body>
+<div>
+	<p></p>
+	<canvas id="basicCanvas" width="500" height="500">
+		
+	</canvas> <!-- end of basicCanvas canvas -->
+	<!-- Script to draw on canvas -->
+	<script type="text/javascript">
+		// Does the script have to come after the canvas is drawn?
+		// The next two lines allow the use of drawing methods.
+		var c = document.getElementById("basicCanvas");
+		var ctx = c.getContext("2d");
+		
+		// variables for circle
+		var centerX = c.width / 2;
+		var centerY = c.height / 2;
+		var radius = 70;
+		var startAngle = Math.PI;
+		var endAngle = Math.PI*1.5;
+		
+		// variables for square
+		squareX1 = centerX - (radius + 1); // NOTE: subtract radius + 1 to match square and circle
+		squareY1 = centerY - (radius + 1);
+		squareWidth = radius + 1;
+		squareHeight = radius + 1;
+		
+		// draw the square
+		ctx.fillStyle = "#cdd194";
+		ctx.fillRect(squareX1, squareY1, squareWidth, squareHeight);
+		
+		// draw the circle
+		// http://blog.michelledinan.com/02/2012/html5-canvas-drawing-simple-shapes/
+		ctx.beginPath();
+		ctx.arc(centerX, centerY, radius, startAngle, endAngle, false);
+		ctx.lineWidth = 1
+		ctx.strokeStyle = '#303116';
+		ctx.stroke();
+		ctx.closePath();
+		
+	</script>
+</div>
+</body>
+</html>
+

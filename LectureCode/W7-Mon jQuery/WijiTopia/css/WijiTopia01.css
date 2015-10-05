@@ -1,0 +1,146 @@
+/*-------------------------------------------------*/
+/*-Wijitopia---------------------------------------*/
+/*-Steve Paling------------------------------------*/
+/*-October 2015------------------------------------*/
+/*-All original content free for personal use------*/
+/*-------------------------------------------------*/
+
+
+/*-------------------------------------------------*/
+/*------global styling-----------------------------*/
+/*-------------------------------------------------*/
+
+body {
+	background-color: #ffffff;
+	color: #303116;
+	font-family: Verdana, Arial, sans-serif;
+    font-size: 100%;
+    line-height: 1.125em;
+}
+
+.credit {
+    font-size: 75%;
+}
+
+
+/*-------------------------------------------------*/
+/*------styling by section-------------------------*/
+/*-------------------------------------------------*/
+
+#main {
+	margin-right: auto;
+    margin-left: auto;
+	max-width: 960px;
+}
+
+#banner {
+	border-bottom: solid 1px #303116;
+    width: 100%;
+}
+
+#banner img {
+    max-width: 100%;
+    min-width: 200px;
+    height: auto;
+}
+
+#wijitTable {
+	/* border: solid 1px #cdd194; */
+	background-color: #ffffff;
+	font-family: Verdana, Arial, "sans-serif";
+    margin-right: auto;
+    margin-left: auto;
+	width: 90%;
+}
+
+#wijitTable th:first-child {
+	text-align: left;
+    width: 15em;
+}
+
+#wijitTable td:first-child {
+	text-align: left;
+}
+
+/*
+#wijitTable > tr,th,td {
+	border: solid 1px #cdd194;
+}
+*/
+
+#wijitTable td {
+	/* background-color: #cdcdcd; */
+	border-top: solid 1px #cdd194;
+	text-align: center;
+	/* border-bottom: solid 1px #cdd194; */
+}
+
+#footer {
+	/* border-top: solid 1px #cdd194; */
+    background-color: #cdd194;
+    text-align: center;
+}
+
+#footer p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#footer img {
+	margin-right: 1em;
+	vertical-align: top;
+}
+
+h1 {
+    font-size: 1.25em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+/* begin media queries for main page */
+@media screen and (max-width: 600px) {
+    #wijitTable th {
+	font-size: 80%;
+    }
+}
+/* end media queries for main page */
+
+
+/*-------------------------------------------------*/
+/*------styling by INNER PAGE----------------------*/
+/*-------------------------------------------------*/
+
+/* Begin elements for the dice roller page */
+#rollFormDiv {
+    font-size: 1.2em;
+}
+
+#diceDiv {
+    height: 88px;
+    margin-top: 4em;
+    /* border: solid 1px #cdcdcd; */
+}
+
+#diceDiv > img {
+    /* display: none; */
+    margin: 2px;
+    margin-right: 5px;
+}
+/* End elements for the dice roller page */
+
+
+/* Begin elements for the craters page */
+#canvasDiv {
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#basicCanvas {
+    border: 1px solid #000000;
+    background-color: #d7ddd2;
+}
+/* End elements for the craters page */
+
+

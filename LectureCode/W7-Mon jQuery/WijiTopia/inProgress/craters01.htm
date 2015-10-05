@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- Draw some random craters! -->
+<!-- A simple test page with hand-rendered crater position and size. -->
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Wijitopia -- Craters!</title>
+    <link rel="stylesheet" href="css/WijiTopia01.css">
+</head>
+<body>
+<div id="main">
+
+<!-- make this an include, with a link? -->
+<div id="banner">
+	<img id="wijitBanner" src="images/WijitopiaInnerBanner01.png" alt="Wijitopia: Your 24/7 Source for Widgets" width="250" height="74">
+</div> <!-- end of banner div -->
+
+<div id="canvasDiv">
+    <p>Craters! Randomly placed, with random diameters... just like real life!</p>
+	<canvas id="basicCanvas" width="400" height="400"></canvas>
+	<!-- Script to draw on canvas -->
+	<script type="text/javascript">
+		var c = document.getElementById("basicCanvas");
+		var ctx = c.getContext("2d");
+		var x = 100;
+		var y = 100;
+		var height = 197;
+		var width = 198;
+		var imageObj01 = new Image();
+		var imageObj02 = new Image();
+		var imageObj03 = new Image();
+		
+		imageObj01.onload = function() {
+		    ctx.drawImage(imageObj01, x, y, width, height);
+		}
+		
+		imageObj02.onload = function() {
+		    ctx.drawImage(imageObj02, x * 2, y * 2, 114, 114);
+		}
+		
+		imageObj03.onload = function() {
+		    ctx.drawImage(imageObj03, x * 2.5, y * 3.5, 85, 86);
+		}
+		
+		imageObj01.src = "images/crater01.png";
+		imageObj02.src = "images/crater01.png";
+		imageObj03.src = "images/rocket01.png";
+	</script>
+</div> <!-- end of canvasDiv -->
+
+<div id="footer">
+	<img src="images/ValidHTML5.jpg" alt="Valid HTML5" width="83" height="31">
+	<img src="images/ValidCSS.gif" alt="Valid CSS" width="83" height="31">
+	<img src="images/jQuery-Logo.png" alt="JQuery" width="175" height="45">
+</div> <!-- end of footer div -->
+
+</div> <!-- end main div -->
+</body>
+</html>
+

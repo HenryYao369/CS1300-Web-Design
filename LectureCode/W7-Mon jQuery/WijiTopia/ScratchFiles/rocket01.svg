@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="215.27042"
+   height="385.01578"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="rocket01.svg"
+   inkscape:export-filename="C:\Users\Samsung\Pictures\Drawings\rocket\rockrt.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
+  <defs
+     id="defs4">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3003"
+       is_visible="true" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="82.789348"
+     inkscape:cy="179.38822"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-global="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="963"
+     inkscape:window-x="0"
+     inkscape:window-y="46"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <sodipodi:guide
+       orientation="0,1"
+       position="-320.68646,-218.80934"
+       id="guide4003" />
+  </sodipodi:namedview>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-289.25789,-214.25135)">
+    <g
+       id="g4097"
+       transform="matrix(0.16419192,0.16419192,-0.16830649,0.16830649,441.07203,219.89938)">
+      <g
+         transform="matrix(0.73846332,0,0,1,107.38694,-20)"
+         id="g3801">
+        <path
+           style="fill:#ffff00;fill-opacity:1;stroke:none"
+           d="m 245.71429,726.6479 c 0,0 -158.443205,225.18722 -77.14286,274.2857 42.67419,25.7716 108.57143,-102.85713 108.57143,-102.85713 0,0 6.66033,97.76777 42.85715,100 C 359.61744,1000.5196 380,895.21932 380,895.21932 c 0,0 113.25234,149.85718 168.57143,111.42858 76.27296,-52.98471 -62.85714,-271.42857 -62.85714,-271.42857"
+           id="path3005"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cacacac" />
+        <path
+           style="fill:#ff0000;fill-opacity:1;stroke:none"
+           d="m 260,763.79075 -60,148.57143 117.14286,-94.28571 8.57143,91.42857 88.57142,-82.85714 97.14286,111.42857 -62.85714,-194.28572"
+           id="path3777"
+           inkscape:connector-curvature="0" />
+      </g>
+      <path
+         inkscape:connector-curvature="0"
+         id="path3779"
+         d="m 372.04724,233.25273 c -77.23446,0 -139.84537,155.60822 -139.84537,347.58189 0,64.23129 7.00799,124.39111 19.22873,176.01672 l 241.21342,0 c 12.22074,-51.62561 19.2486,-111.78543 19.2486,-176.01672 0,-191.97367 -62.61091,-347.58189 -139.84538,-347.58189 z"
+         style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;marker-mid:none" />
+      <path
+         transform="translate(6.3329468,-103.71432)"
+         d="m 411.42858,480.93362 c 0,25.24731 -20.46698,45.71429 -45.71429,45.71429 -25.2473,0 -45.71428,-20.46698 -45.71428,-45.71429 0,-25.2473 20.46698,-45.71428 45.71428,-45.71428 25.24731,0 45.71429,20.46698 45.71429,45.71428 z"
+         sodipodi:ry="45.714287"
+         sodipodi:rx="45.714287"
+         sodipodi:cy="480.93362"
+         sodipodi:cx="365.71429"
+         id="path2987"
+         style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-mid:none"
+         sodipodi:type="arc" />
+      <rect
+         ry="12.099968"
+         y="641.19122"
+         x="359.83853"
+         height="182.59952"
+         width="24.417446"
+         id="rect3791"
+         style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path4005"
+         d="m 246.56026,632.36218 c -147.433209,77.70038 -54.28571,188.57143 -54.28571,188.57143 21.17594,-55.45385 25.49054,-59.85475 77.14285,-71.42857 l 2.85714,2.85714 0,0"
+         style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <use
+         height="1052.3622"
+         width="744.09448"
+         transform="matrix(-1,0,0,1,744.09448,0)"
+         id="use4007"
+         xlink:href="#path4005"
+         y="0"
+         x="0" />
+    </g>
+  </g>
+  <metadata
+     id="metadata3052">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Open Clip Art Library</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Rocket</dc:title>
+        <dc:date>2012-11-08T17:09:57</dc:date>
+        <dc:description>Clip art rocket created for some maths games</dc:description>
+        <dc:source>http://openclipart.org/detail/173085/rocket-by-bibbleycheese-173085</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Bibbleycheese</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>rocket</rdf:li>
+            <rdf:li>space</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
