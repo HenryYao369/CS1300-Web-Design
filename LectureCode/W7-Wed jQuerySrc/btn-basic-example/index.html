@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Humble Button Click</title>
+
+        <!-- First, we must import the jQuery script so that we can use $. -->
+        <script src="jquery/jquery-1.11.3.min.js"></script>
+
+        <!-- Now we make our own script. In the future, you should save this code
+        as a separate .js file in your 'scripts' folder. But for demonstration
+        purposes, it's better to see everything on one page. -->
+        <script>
+
+        // Warning: Mysterious code below.
+        $(function() { // (a)
+            // ^ What does $(function() { ... }); do for us?
+            // Try commenting out marked lines (a) and (e). Reload your page.
+            // Does the button work now? Why not?
+
+            // Line (b) breakdown:
+            //    $("#btn") --> grabs HTML element with id="btn".
+            //    .on("click" --> tells jQuery to run inner code when element with id "btn" is clicked.
+            //    function() --> contains the code to run when click event occurs
+            $("#btn").on("click", function(){ // (b)
+
+                // jQuery selectors are like CSS: they can affect
+                // multiple elements at once. The below line
+                // grabs a 'p' tags on the page and hides them.
+                $("p").hide(); // (c)
+
+            }); // (d)
+
+        }); // (e)
+
+        </script>
+    </head>
+    <body>
+
+        <h2>The colors are turning</h2>
+
+        <p>Homework assigments</p>
+        <p>Lectures</p>
+        <p>Prelims</p>
+
+        <button id="btn">Fall break</button>
+
+    </body>
+</html>
