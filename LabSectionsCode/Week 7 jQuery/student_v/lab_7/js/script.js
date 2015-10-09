@@ -13,22 +13,40 @@ $(document).ready(function(){
 	HINT: Change text in #leftCol */
 
 	// change to blue, #0000ff
-	$('#blue').change(function(){
+	$('#blue').click(function(){
 		//TODO: Change text color in #leftCol
+		$('#leftCol').css("color","blue");
 	});
 	
 	// TODO: change to green, #00ff00
 
+    $('#green').click(function(){
+        //TODO: Change text color in #leftCol
+        $('#leftCol').css("color","#00ff00");
+    });
+
 	// TODO: change to yellow, #ffff00
+    $('#yellow').click(function(){
+        //TODO: Change text color in #leftCol
+        $('#leftCol').css("color","#ffff00");
+    });
 
 	// TODO: back to initial color, use Chrome inspector to find out font color
+
+    $('#initial_color').click(function(){
+        //TODO: Change text color in #leftCol
+        $('#leftCol').css("color","#4d4d4d");
+    });
 
 
 	/* 2. Enable font-family change for Lorem ipsum text ONLY: 
 	HINT: Change text in #leftCol */
 
 	// TODO: change to 'Helvetica'
-	
+    $('#helvetica').click(function(){
+        //TODO: Change text color in #leftCol
+        $('#leftCol').css("font-family","Helvetica");
+    });
 	// TODO: change to 'Times New Roman'
 	
 	// TODO: change to 'Arial'
@@ -37,7 +55,11 @@ $(document).ready(function(){
 
 
 	/* 3. TODO: Hide and Show text on Click */
-
+    $('.showButton').click(function(){
+        //TODO: Change text color in #leftCol
+        //$('#leftCol').css("display","none");
+        $('#leftCol').toggle();
+    });
 
 	/* 4. TODO: Enable font-size change for Lorem ipsum text ONLY, via button click: */
 
@@ -46,7 +68,14 @@ $(document).ready(function(){
 	// HINY 2: You want to be able to detect a click event on ".fontButton" when there is a 
 	// change in 'input[type="text"]''--the first part has been done for you
 	$('#textInput').change(function(){
-	
+
+        $('.fontButton').click(function(){
+            $('#leftCol').css('font-size',$('#textInput').val()+'px');
+        });
+
+        $('.fontButton').click(function(){
+            $('#leftCol').css('font-size',$('#textInput').val()+'px');
+        });
 
 		// BONUS ADVANCED jQuery: Validate inputs to make sure only numbers are entered 
 
