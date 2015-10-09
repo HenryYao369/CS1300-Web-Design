@@ -70,11 +70,7 @@ $(document).ready(function(){
 	$('#textInput').change(function(){
 
         $('.fontButton').click(function(){
-            $('#leftCol').css('font-size',$('#textInput').val()+'px');
-        });
-
-        $('.fontButton').click(function(){
-            $('#leftCol').css('font-size',$('#textInput').val()+'px');
+            $('#leftCol').css('font-size',$('#textInput').val()+'px');  // 你的bug:忘记 #textInput中的"#"--common mistake!!!
         });
 
 		// BONUS ADVANCED jQuery: Validate inputs to make sure only numbers are entered 
