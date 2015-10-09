@@ -1,0 +1,156 @@
+body {
+	font-family: 'Georgia', 'Helvetica Neue', sans-serif;
+	font-weight: normal;
+	color: #4d4d4d;
+	margin: 0;
+	padding: 0;
+	transition: .2s linear;
+	-o-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-webkit-transition: all .2s linear;
+}
+
+h1 {
+	color: #fff;
+	font-size: 34px;
+	text-align: left;
+	text-shadow: 3px 2px #222;
+	margin: 17px 20px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+a, a:visited, a:active {
+	text-decoration: underline;
+	outline: none;
+	display: inline-block;
+	margin-bottom: -4px;
+	font-size: 24px;
+	color: #000;
+}
+
+button {
+	cursor: pointer;
+}
+
+.textEdit {
+	border: 1px dashed #666;
+	margin: 15px;
+	padding: 0px 15px 15px 15px;
+}
+
+.textWarning {
+	color: #ff0000;
+	margin-top: 5px;
+	font-size: 14px;
+}
+
+.resetButton {
+	margin-left: 15px;
+}
+
+.toggleButton {
+	margin-bottom: 10px;
+}
+
+#headWrapper {
+	display: table;
+	-o-background: linear-gradient(#000,#222,#666);
+	-moz-background: linear-gradient(#000,#222,#666);
+	-webkit-background: linear-gradient(#000,#222,#666);
+	background: linear-gradient(#000,#222,#666);
+	opacity: 0.8;
+	height: 75px;
+	width: 100%;
+	border: none;
+}
+
+#left, #right {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#left {
+	width: 580px;
+	padding-left: 25px;
+}
+
+#right {
+	display: table;
+	float: right;
+	padding-right: 25px;
+}
+
+#learnText, #jLogo, #juiLogo, #cssLogo {
+	display: table-cell;
+	vertical-align: middle;
+	height: 70px;
+	padding: 2px 15px;
+	transition: all .2s linear;
+	-o-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-webkit-transition: all .2s linear;
+}
+
+#jLogo:hover, #juiLogo:hover, #cssLogo:hover {
+	background-color: rgba(255,255,255,0.55);
+}
+
+#learnText {
+	color: #fff;
+	font-family: 'Helvetica Neue', 'Nixie One', sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+	text-align: right;
+	letter-spacing: 0.75px;
+}
+
+#jLogo {
+	background: url('../img/jquery.png') no-repeat center;
+	width: 215px;
+}
+
+#juiLogo {
+	background: url('../img/jquery_ui.png') no-repeat center; 
+	width: 70px;
+}
+
+#cssLogo {
+	background: url('../img/css3.png') no-repeat center;
+	width: 50px;
+}
+
+#bodyWrapper {
+	display: table;
+	vertical-align: top;
+	width: 70%;
+	margin: auto;
+	padding: 15px;
+}
+
+#leftCol, #rightCol {
+	display: table-cell;
+	vertical-align: top;
+	padding: 0px 15px;
+	transition: .2s linear;
+	-o-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-webkit-transition: all .2s linear;
+}
+
+#leftCol {
+	width: 60%;
+	line-height: 25px;
+}
+
+#rightCol {
+	max-width: 40%;
+}
+
+#toggleBox {
+	height: 100px;
+	width: 100px;
+	background-color: #33cc00;
+}

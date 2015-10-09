@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+	<meta charset='utf-8'/>
+	<meta name='description' content='Practice with jQuery'/>
+    <meta name='author' content='Ariel Soriano (aas257), Yue Zhu (yz458)'/>
+    <title>Practice with jQuery - Awesome Text Editor!</title>
+    <link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'/>
+    <link href='css/style.css' rel='stylesheet' type='text/css'/>
+    <script src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+</head>
+<body>
+	<div id='headWrapper'>
+		<div id='left'>
+			<h1>Awesome jQuery Text Editor</h1>
+		</div><!--left-->
+		<div id='right'>
+			<div id='learnText'>Write less, learn more...</div>
+			<a href='http://api.jquery.com' target='_blank'><div id='jLogo'></div></a>
+			<a href='http://jqueryui.com/' target='_blank'><div id='juiLogo'></div></a>
+			<a href='http://www.w3schools.com/css/' target='_blank'><div id='cssLogo'></div></a>
+		</div><!--right-->
+	</div><!--headWrapper-->
+	<div id='bodyWrapper'>
+		<div id='leftCol'>
+
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut sem lectus, id tempor elit. Sed varius augue et eros volutpat laoreet. Sed suscipit justo sem, vel posuere purus. Suspendisse varius ligula euismod turpis feugiat consequat. Pellentesque sit amet neque at urna tempor mattis. Integer tempor neque nec lorem iaculis vitae feugiat elit convallis. Quisque lacinia risus vel odio sagittis ornare. In vel dolor ipsum, vitae condimentum libero. Aliquam leo metus, varius ac porta quis, condimentum et diam. Sed aliquam arcu nec arcu ultrices sodales. Praesent in nulla ligula, at gravida tortor. Nullam arcu lectus, eleifend vitae consectetur ut, gravida id mauris.
+			<br/><br/>
+			Morbi erat eros, rhoncus vitae ultrices vel, porta eget arcu. Praesent nibh tortor, facilisis adipiscing ultrices vel, pharetra sit amet felis. Donec varius bibendum est. Aenean elementum mi mollis turpis aliquet fringilla cursus id nunc. Here nec dui sapien. Integer ac augue lorem. Curabitur eleifend, diam ut venenatis facilisis, arcu justo aliquam libero, in ornare nulla felis nec arcu. Vestibulum vulputate elit sit amet orci rutrum at vulputate diam congue. Nullam congue nisl ac risus pellentesque euismod. Integer dapibus ultricies mollis. Aliquam dignissim dolor sit amet mi blandit eget venenatis mi bibendum. Morbi luctus ultrices massa, a fringilla leo blandit venenatis. Vivamus facilisis dolor eu ligula rutrum in consequat nisi blandit. Morbi viverra placerat placerat. Donec vel urna mi, lobortis pharetra metus. Nulla pulvinar, orci a convallis malesuada, nulla erat venenatis neque, id accumsan nibh nunc ut velit. Suspendisse mollis condimentum auctor. Aliquam id egestas lacus. Cras ac ante nulla, et vehicula arcu. Aliquam egestas lobortis sapien, in mattis nisl cursus vulputate.
+			<br/><br/>
+			Integer non posuere velit. Here sodales elit a nunc bibendum rutrum. Here adipiscing, risus ut aliquam feugiat, nunc tortor semper tellus, quis vulputate metus nibh quis nisi. Phasellus sem eros, cursus quis rhoncus sit amet, euismod eu ipsum. Integer id erat est, et sodales velit. Proin fermentum commodo diam, a aliquam ante elementum eu. Aenean consequat sapien eu risus mattis gravida. Sed sem elit, blandit id egestas quis, tincidunt ac diam. Vivamus consectetur, nulla ut hendrerit varius, lorem diam ultrices arcu, et ultricies nisi lectus at dui. Nullam porta, lectus scelerisque congue pretium, lorem magna feugiat erat, sed lobortis ligula metus vitae metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam volutpat cursus semper. Cras eros libero, accumsan non accumsan id, congue dictum orci. Vestibulum neque lorem, cursus id pellentesque ut, eleifend vel elit. Donec dictum imperdiet tortor, congue dignissim turpis volutpat a. Vivamus sed erat purus. Donec eu aliquam orci. Curabitur ante risus, mattis ut varius ut, laoreet ut sem.Donec condimentum tempus quam, a mattis dui laoreet ac. 
+			<br/><br/>
+		</div><!--leftCol-->
+		<div id='rightCol'>
+		<a href= "http://www.w3schools.com/jquery/jquery_events.asp" target="_blank"> Common Event Types </a><br><br>
+			<button class='resetButton'>Reset</button>
+			<div class='textEdit'>
+				<h2>1. Change Font Color</h2>
+				<label for='blue'>Blue</label> 
+				<input type='radio' name='color' value='blue' id='blue'/><br/>
+				<label for='green'>Green</label> 
+				<input type='radio' name='color' value='green' id='green'/><br/>
+				<label for='yellow'>Yellow</label> 
+				<input type='radio' name='color' value='yellow' id='yellow'/><br/>
+				<label for='initial_color'>initial color</label> 
+				<input type='radio' name='color' value='initial_color' id='initial_color' checked/><br/>
+			</div>
+			<div class='textEdit'>
+				<h2>2. Change Font Family</h2>
+				<label for='helvetica'>Helvetica</label> 
+				<input type='radio' name='font' value='helvetica' id='helvetica'/><br/>
+				<label for='times'>Times New Roman</label> 
+				<input type='radio' name='font' value='times new roman' id='times'/><br/>
+				<label for='arial'>Arial</label> 
+				<input type='radio' name='font' value='arial' id='arial'/><br/>
+				<label for='initial_font'>initial font</label> 
+				<input type='radio' name='font' value='initial_font' id='initial_font' checked/><br/>
+			</div>
+			<div class='textEdit'>
+				<h2>3. Hide / Show Text</h2>
+				Click to show and hide the text to the left
+				<br/>
+				<br/>
+				<button class='showButton'>Hide / Show Text</button>
+			</div>
+			<div class='textEdit'>
+				<h2>4. Change Font Size</h2>
+				<input type='text' id='textInput' name='font' value='' placeholder='Enter numbers only'/> px 
+				<button class='fontButton'>Change Font</button>
+				<br/>
+				<span class='textWarning'></span>
+			</div>
+			<div class='textEdit'>
+				<h2>5. Change Background</h2>
+				<label for='doge'>Space Doge</label> 
+				<input type='checkbox' name='background' value='doge' id='doge'/>
+				<br/>
+				<br/>
+				<i>(Check to change and uncheck to change back)</i>
+			</div>
+			<div class='textEdit'>
+				<h2>6. Sliding Element</h2>
+				<button class='toggleButton'>Hide / Show Me</button>
+				<div id='toggleBox'></div>
+			</div>
+			<button class='resetButton'>Reset</button>
+		</div><!--rightCol-->
+	</div><!--bodyWrapper-->
+	<script src='js/script.js'></script>
+</body>
+</html>
