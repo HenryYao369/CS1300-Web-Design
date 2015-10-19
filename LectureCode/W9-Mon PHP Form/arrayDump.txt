@@ -1,0 +1,7 @@
+﻿Array ( [
+	hiddenField] => Some information 
+	[name] => Steve Paling 
+	[major] => Math 
+		[skills] => 
+			Array ( [0] => HTML5 [1] => CSS3 ) 
+	[department] => CS ) 

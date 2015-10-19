@@ -1,0 +1,133 @@
+/*-------------------------------------------------*/
+/*------style sheet for Web forms demo-------------*/
+/*-------------------------------------------------*/
+
+/*-------------------------------------------------*/
+/*------global styling-----------------------------*/
+/*-------------------------------------------------*/
+
+/* global reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #312c32;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 100%;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+/* input {
+    float: right;
+    clear: both;
+} */
+
+input[type=text] {
+    margin-left: 2em;
+}
+
+input[type=checkbox] {
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+    margin-left: 2em;
+}
+
+input[type=radio] + label {
+    margin-right: 1em;
+    margin-left: 5px;
+    width: 50px;
+}
+
+
+/*-------------------------------------------------*/
+/*------styling by section-------------------------*/
+/*-------------------------------------------------*/
+
+#banner {
+    background-color: #98dafc;
+    border-bottom: solid 5px #daad86;
+    color: #312c32;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 900px;
+    padding: 1em;
+}
+
+#container {
+    background-color: #ffffff;
+    /* border: solid 1px red; */
+    height: 100vh;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 900px;
+    padding: 1em;
+    padding-bottom: 0;
+}
+
+#testForm {
+    background-color: #efefef;
+    border: solid 1px #312c32;
+    margin-top: 2em;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 900px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+}
+
+#radioButtons {
+    margin-left: 1.5em;
+}
+
+#formTable {
+    border-spacing: 0;
+    margin-top: 2em;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 900px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+}
+
+#formTable th {
+    background-color: #efefef;
+    border-top: solid 1px #312c32;
+    border-bottom: solid 1px #312c32;
+    padding: 0.5em;
+    text-align: left;
+}
+
+#formTable td {
+    padding: 0.5em;
+}
+
+
+/*-------------------------------------------------*/
+/*------media queries------------------------------*/
+/*-------------------------------------------------*/
+
+@media only screen and (max-width: 400px) {
+    #banner {
+        font-size: 90%;
+    }
+    
+    #container {
+        border: solid 1px green;
+        font-size: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 90%;
+    }
+}
+
+
+
+
+
