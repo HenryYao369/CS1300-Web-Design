@@ -1,0 +1,184 @@
+/*-------------------------------------------------*/
+/*------style sheet for Web forms demo-------------*/
+/*-------------------------------------------------*/
+
+/*-------------------------------------------------*/
+/*------global styling-----------------------------*/
+/*-------------------------------------------------*/
+
+/* global reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /* background-color: #312c32; */
+    background-color: #efefef;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 100%;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+p.credit {
+    font-size: 80%;
+}
+
+/* input {
+    float: right;
+    clear: both;
+} */
+
+/* input[type=text] {
+    margin-left: 2em;
+} */
+input[type=text] {
+    width: 3em;
+}
+
+input[type=text] + label {
+    margin-left: 0.5em;
+}
+
+input[type=checkbox] {
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+    margin-left: 2em;
+}
+
+input[type=radio] + label {
+    margin-right: 1em;
+    margin-left: 5px;
+    width: 50px;
+}
+
+input[type=submit] {
+    margin-top: 1em;
+}
+
+
+/*-------------------------------------------------*/
+/*------styling by section-------------------------*/
+/*-------------------------------------------------*/
+
+#banner {
+    background-color: #98dafc;
+    border-bottom: solid 5px #daad86;
+    color: #312c32;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 900px;
+    padding: 1em;
+}
+
+#container {
+    background-color: #ffffff;
+    /* border: solid 1px red; */
+    height: 100vh;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 900px;
+    padding: 1em;
+    padding-bottom: 0;
+}
+
+#cylinderForm {
+    background-color: #efefef;
+    border: solid 1px #312c32;
+    margin-top: 2em;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 900px;
+    min-height: 235px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+}
+
+#cylinderForm img {
+    float: left;
+    margin-right: 2em;
+}
+
+#radioButtons {
+    margin-left: 1.5em;
+}
+
+#formTable {
+    border-spacing: 0;
+    margin-top: 2em;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 900px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+}
+
+#formTable th {
+    background-color: #efefef;
+    border-top: solid 1px #312c32;
+    border-bottom: solid 1px #312c32;
+    padding: 0.5em;
+    text-align: left;
+}
+
+#formTable td {
+    padding: 0.5em;
+}
+
+#results {
+    /* border: solid 1px red; */
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 250px;
+    max-width: 420px;
+    min-width: 300px;
+}
+
+/* #results h1 {
+    margin-bottom: 0.5em;
+    text-align: center;
+} */
+
+#results h3 {
+    margin-top: 3em;
+    margin-left: 1em;
+    padding-top: 1em;
+}
+
+#results img {
+    float: left;
+}
+
+#results ul {
+    list-style-type: none;
+    padding-left: 190px;
+}
+
+
+/*-------------------------------------------------*/
+/*------media queries------------------------------*/
+/*-------------------------------------------------*/
+
+@media only screen and (max-width: 400px) {
+    #banner {
+        font-size: 90%;
+    }
+    
+    #container {
+        border: solid 1px green;
+        font-size: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 90%;
+    }
+}
+
+
+
+
+
