@@ -30,19 +30,19 @@
 		}
 
 		if (isset($_POST['class2'])){
-			$class1 = $_POST['class2'];
+			$class2 = $_POST['class2']; //$class2 -- 错了！
 		}
 
 		if (isset($_POST['class3'])){
-			$class1 = $_POST['class3'];
+			$class3 = $_POST['class3'];
 		}
 
 		if (isset($_POST['class4'])){
-			$class1 = $_POST['class4'];
+			$class4 = $_POST['class4'];
 		}
 
 		if (isset($_POST['class5'])){
-			$class1 = $_POST['class5'];
+			$class5 = $_POST['class5'];
 		}
 
 		if (isset($_POST['semester'])){
