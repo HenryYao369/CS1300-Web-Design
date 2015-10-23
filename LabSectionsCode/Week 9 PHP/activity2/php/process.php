@@ -1,6 +1,6 @@
 
 
-<!doctype html>
+<!doctype html>    <!--必须在html内才能显示（或者return回value也行），TA的soln没有！  【一定镶嵌在HTML内！】-->
 <html>
 
     <head>
