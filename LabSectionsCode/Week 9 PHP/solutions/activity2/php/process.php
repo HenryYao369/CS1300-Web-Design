@@ -18,7 +18,7 @@
 	// Remember the method you used is POST, so you will have to use the $_POST superglobal variable
 	// isset() makes sure that the certain value is not NULL
 
-	if (isset($_POST['submit'])){
+	if (isset($_POST['submitButton'])){
 		// First example of using isset
 		if (isset($_POST['name'])){
 			// TODO: Initialize and set the $name variable to the form input
