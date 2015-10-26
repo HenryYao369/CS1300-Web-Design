@@ -48,7 +48,7 @@ img.responsive {
     position: absolute;
     /* top: 255; */
     top: 240px;
-    left: 0px;
+    left: 0px;    /* 还是position。 CSS position：熟悉是关键！！ */
     text-align: left;
     width: 100%;
     z-index: 10;
