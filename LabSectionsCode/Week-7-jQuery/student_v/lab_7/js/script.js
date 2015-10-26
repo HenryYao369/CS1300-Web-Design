@@ -7,7 +7,7 @@ the jQuery API that is linked at the top right of the activity website)
 
 */
 
-$(document).ready(function(){
+$(document).ready(function(){  // 注意这个ready function -- 所有东西都要在里面！！
 
 	/* 1. Enable font color change for Lorem ipsum text ONLY: 
 	HINT: Change text in #leftCol */
