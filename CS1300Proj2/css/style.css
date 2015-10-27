@@ -23,6 +23,7 @@ h2 {
 }
 
 h1.subtitle {
+    font-family: 'Raleway', sans-serif;
     margin-bottom: 0.5em;
 }
 
@@ -41,7 +42,7 @@ ul {
 .imageHolder {
     /* border: solid 2px black; */
     clear: both;
-    max-width: 300px;
+    /*max-width: 300px;*/
     margin-right: auto;
     margin-bottom: 1em;
     margin-left: auto;
@@ -58,21 +59,6 @@ p.caption {
     padding-top: 0.5em;
 }
 
-.imageTravel {
-    /* border: solid 2px black; */
-    clear: both;
-    margin-right: auto;
-    margin-bottom: 3em;
-    margin-left: auto;
-    text-align: center;
-}
-
-p.travel {
-    color: black;
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 1.2em;
-    margin-bottom: 1em;
-}
 
 
 /*-------------------------------------------------*/
@@ -96,6 +82,8 @@ p.travel {
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
+    /*margin-bottom: 20px;*/
+    /*margin: auto;*/
     max-width: 1000px;
     color:white;
 
@@ -153,12 +141,81 @@ p.travel {
     margin-left: 12%;
 }
 
+
+.front-page-image img{
+    max-width: 639px;
+    max-height: 425px;
+}
+
+
 #footer {
-    background:#ffab62;
+    /*background:#ffab62;*/
+    background:black;
+    color: white;
+
     width:100%;
     height:100px;
     position:absolute;
     bottom:0;
     left:0;
+
 }
+
+#footer p{
+    color: white;
+    margin-left: 12%;
+}
+
+#footer a:visited{
+    color:#999;
+}
+
+#footer a:link {
+    color:#999;
+    text-decoration: none;
+}
+
+
+
+/*responsive design code adapted from Cornell CS1300 lab session code*/
+@media (max-width: 800px) {
+    #content {
+        font-size: 2em; /* em resizes like a percentage */
+        margin: 0; /* Remove existing margin */ /* always good practice to remove margin when on mobile device!! */
+        width: 100%; /* Content takes up all width of parent */
+    }
+    .front-page-image img {
+
+        float: none; /* Cancel float */
+        margin: 0 auto; /* Center image */
+
+        padding: 0; /* Zero padding */
+        height: 80%; /* Height declaration */
+        width: 80%; /* Width declaration */
+    }
+}
+@media (max-width: 650px) {
+
+    .front-page-image img{
+        display: none;
+    }
+    .imageHolder{
+        display: none;
+    }
+
+    #nav li { /* For future adaptation -- change nav to list later */
+        width: 80px;
+    }
+    #nav a:link, #nav a:visited {
+        font-size: 12px;
+        width: 100%;
+    }
+}
+/* Font Size Change */
+@media (min-width: 800px) {
+    #content {
+        font-size: 25px;
+    }
+}
+
 
