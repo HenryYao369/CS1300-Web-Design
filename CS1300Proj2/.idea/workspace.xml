@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ef88793-65ce-430d-b867-c62d0a06d7eb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html-files/about.html" afterPath="$PROJECT_DIR$/html-files/about.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LectureCode/W9-Wed PHP cylinder/scripts/cylinderCalc.php" afterPath="$PROJECT_DIR$/../LectureCode/W9-Wed PHP cylinder/scripts/cylinderCalc.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html-files/directions.html" afterPath="$PROJECT_DIR$/html-files/directions.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html-files/events.html" afterPath="$PROJECT_DIR$/html-files/events.html" />
@@ -10,6 +11,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LectureCode/W7-Wed jQuerySrc/livedemo/index.html" afterPath="$PROJECT_DIR$/../LectureCode/W7-Wed jQuerySrc/livedemo/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LectureCode/W10-Mon DataValidation/index.php" afterPath="$PROJECT_DIR$/../LectureCode/W10-Mon DataValidation/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LectureCode/W9-Wed PHP cylinder/index.php" afterPath="$PROJECT_DIR$/../LectureCode/W9-Wed PHP cylinder/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LectureCode/W10-Mon DataValidation/scripts/validate.js" afterPath="$PROJECT_DIR$/../LectureCode/W10-Mon DataValidation/scripts/validate.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html-files/vendors.html" afterPath="$PROJECT_DIR$/html-files/vendors.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CS1300Proj1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../CS1300Proj1/.idea/workspace.xml" />
@@ -39,38 +41,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.375">
-              <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="events.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html-files/events.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-48.25">
-              <caret line="147" column="48" selection-start-line="147" selection-start-column="48" selection-end-line="147" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="directions.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html-files/directions.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75663716">
-              <caret line="66" column="98" selection-start-line="66" selection-start-column="98" selection-end-line="66" selection-end-column="98" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vendors.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html-files/vendors.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.958334">
-              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+            <state vertical-scroll-proportion="-15.125">
+              <caret line="122" column="30" selection-start-line="122" selection-start-column="14" selection-end-line="122" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -79,18 +51,48 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.333333">
-              <caret line="30" column="9" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="9" />
+            <state vertical-scroll-proportion="-7.2222223">
+              <caret line="88" column="27" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="events.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html-files/events.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.625">
+              <caret line="151" column="16" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="directions.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html-files/directions.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.625">
+              <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vendors.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html-files/vendors.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-19.5">
+              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html-files/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.9292035">
+              <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -106,12 +108,12 @@
       <list>
         <option value="$PROJECT_DIR$/html-files/order.html" />
         <option value="$PROJECT_DIR$/html-files/participate.html" />
-        <option value="$PROJECT_DIR$/html-files/about.html" />
-        <option value="$PROJECT_DIR$/html-files/events.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/html-files/vendors.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/html-files/events.html" />
         <option value="$PROJECT_DIR$/html-files/directions.html" />
+        <option value="$PROJECT_DIR$/html-files/vendors.html" />
+        <option value="$PROJECT_DIR$/html-files/about.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -271,7 +273,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31917807" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -372,50 +374,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html-files/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html-files/vendors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.958334">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.375">
-          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="58" />
+        <state vertical-scroll-proportion="-15.125">
+          <caret line="122" column="30" selection-start-line="122" selection-start-column="14" selection-end-line="122" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html-files/events.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-48.25">
-          <caret line="147" column="48" selection-start-line="147" selection-start-column="48" selection-end-line="147" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.333333">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="9" />
+        <state vertical-scroll-proportion="-17.625">
+          <caret line="151" column="16" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html-files/directions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75663716">
-          <caret line="66" column="98" selection-start-line="66" selection-start-column="98" selection-end-line="66" selection-end-column="98" />
+        <state vertical-scroll-proportion="-17.625">
+          <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-files/vendors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.5">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2222223">
+          <caret line="88" column="27" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-files/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9292035">
+          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
           <folding />
         </state>
       </provider>
