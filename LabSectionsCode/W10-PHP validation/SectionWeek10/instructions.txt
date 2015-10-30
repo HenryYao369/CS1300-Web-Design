@@ -1,0 +1,8 @@
+Instructions:
+
+Complete the form.php file by inserting/filling in the correct IDs, Types, and Names.
+Complete the PHP block so that it correctly performs all the following checks and displays the result:
+    all fields were sent
+    all fields are not empty
+    username is at least 3 characters long
+    message is no greater than 250 characters
