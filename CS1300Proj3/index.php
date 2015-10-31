@@ -17,10 +17,10 @@
         <div id="nav">
             <span><a href="">Home</a>  </span>
 
-            <span><a href="html-files/projects.php">Projects</a>  </span>
-            <span><a href="html-files/courses.php">Courses</a>  </span>
-            <span><a href="html-files/traveling.php">Hobbies</a>  </span>
-            <span><a href="html-files/contact.php">Contact</a>  </span>
+            <span><a href="pages/projects.php">Projects</a>  </span>
+            <span><a href="pages/courses.php">Courses</a>  </span>
+            <span><a href="pages/traveling.php">Hobbies</a>  </span>
+            <span><a href="pages/contact.php">Contact</a>  </span>
             <span><a href="https://www.linkedin.com/in/hengzhiyao">LinkedIn</a>  </span>
         </div>
 
@@ -102,11 +102,11 @@
 
             <h2>Projects</h2>
             I love programming in my spare time.
-            <a href="html-files/projects.php">Look for more projects I've done.</a>
+            <a href="pages/projects.php">Look for more projects I've done.</a>
 
             <h2>Courses</h2>
             I've taken courses from both Systems and Analytics in my past study experience.
-            <a href="html-files/courses.php">Look for more courses I've taken.</a>
+            <a href="pages/courses.php">Look for more courses I've taken.</a>
 
             <h2>Programming Skills (rank by familiarity) </h2>
 
