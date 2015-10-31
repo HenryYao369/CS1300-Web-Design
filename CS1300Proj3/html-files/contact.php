@@ -15,11 +15,11 @@
 
 
         <div id="nav">
-            <span><a href="../index.html">Home</a>  </span>
+            <span><a href="../index.php">Home</a>  </span>
 
-            <span><a href="projects.html">Projects</a>  </span>
-            <span><a href="courses.html">Courses</a>  </span>
-            <span><a href="traveling.html">Hobbies</a>  </span>
+            <span><a href="projects.php">Projects</a>  </span>
+            <span><a href="courses.php">Courses</a>  </span>
+            <span><a href="traveling.php">Hobbies</a>  </span>
             <span><a href="contact.html">Contact</a>  </span>
             <span><a href="https://www.linkedin.com/in/hengzhiyao">LinkedIn</a>  </span>
         </div>
