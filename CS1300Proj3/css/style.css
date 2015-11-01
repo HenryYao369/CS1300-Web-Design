@@ -5,18 +5,11 @@
 /*-------------------------------------------------*/
 
 /* global reset */
-* {
-    margin: 0px;
-    /*padding: 0px;*/
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
 }
-
-html { height: 100%; }
-
-body{
-    /*intend to add more here in the future*/
-    height: 100%;
-}
-
 
 p {
     color: black;
@@ -138,34 +131,49 @@ p.travel {
 }
 
 #container {
-    margin-right: 10%;
-    margin-left: 10%;
+
     padding: 10px 10px 10px 10px;
 
     /*margin-left: auto;*/
     /*margin-right: auto;*/
     /*max-width: 1000px;*/
-    height: 100%;
+    min-height:100%;
+    position:relative;
 
 }
 
+#content {
+    padding-bottom:100px; /* Height of the footer element */
 
-/*body > #container { height: auto; min-height: 100%; }*/
+    margin-right: 12%;
+    margin-left: 12%;
+}
 
-/*#footer {*/
-    /*clear: both;*/
-    /*position: relative;*/
-    /*z-index: 10;*/
-    /*height: 3em;*/
-    /*margin-top: -3em;*/
-    /*background:black;*/
-    /*color:white;*/
-/*}*/
 
-/*.footer-words{*/
-    /*margin-right: 10%;*/
-    /*margin-left: 10%;*/
-    /*color:#999;*/
-/*}*/
+#footer {
+    /*background:#ffab62;*/
+    background:black;
+    color: white;
 
-#content { padding-bottom: 3em; }
+    width:100%;
+    height:100px;
+    position:absolute;
+    bottom:0;
+    left:0;
+
+}
+
+#footer p{
+    color: white;
+    margin-left: 12%;
+}
+
+#footer a:visited{
+    color:#999;
+}
+
+#footer a:link {
+    color:#999;
+    text-decoration: none;
+}
+

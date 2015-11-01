@@ -20,7 +20,7 @@
             <span><a href="projects.php">Projects</a>  </span>
             <span><a href="courses.php">Courses</a>  </span>
             <span><a href="traveling.php">Hobbies</a>  </span>
-            <span><a href="contact.html">Contact</a>  </span>
+            <span><a href="contact.php">Contact</a>  </span>
             <span><a href="https://www.linkedin.com/in/hengzhiyao">LinkedIn</a>  </span>
         </div>
 
@@ -29,13 +29,19 @@
 
     <div id="container">
 
-        <h1 class="subtitle">Contact me</h1>
+        <div id="content">
+            
+            <h1 class="subtitle">Contact me</h1>
 
-        <p>If you think I am the right person for your business, don't hesitate to contact me at: hy429@cornell.edu
-        </p>
+            <p>If you think I am the right person for your business, don't hesitate to contact me at: hy429@cornell.edu
+            </p>
 
-        <p>Or add me on <a href="https://www.linkedin.com/in/hengzhiyao">LinkedIn</a></p>
+            <p>Or add me on <a href="https://www.linkedin.com/in/hengzhiyao">LinkedIn</a></p>
 
+        </div>  <!--content-->
+
+
+        <?php include 'templates/footer.php' ?>
 
     </div> <!--container-->
 

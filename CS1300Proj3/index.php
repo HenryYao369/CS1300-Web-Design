@@ -31,21 +31,19 @@
 
     <div id="container">
 
-        <div id="image">
-            <p>
-                <img src="img/frontme.JPG" alt="backImage" height="422" width="638">
-                <!--note: img tag is Inline, so cannot put outside of <p> etc.!! -->
-            </p>
-
-            <div>
-                <p class="italic"> <i>The picture was taken by my father.</i> </p>
-            </div>
-
-        </div>
-
         <div id="content">
 
+            <div id="image">
+                <p>
+                    <img src="img/frontme.JPG" alt="backImage" height="422" width="638">
+                    <!--note: img tag is Inline, so cannot put outside of <p> etc.!! -->
+                </p>
 
+                <div>
+                    <p class="italic"> <i>The picture was taken by my father.</i> </p>
+                </div>
+
+            </div>  <!-- image-->
 
             <p>Hengzhi(Henry) Yao obtains Master from Cornell University, BEng from USTC, both in Electrical and Computer Engineering.
                 <br>
@@ -117,16 +115,10 @@
 
         </div> <!--content-->
 
+        <?php include 'pages/templates/footer.php' ?>
+
 
     </div> <!--container-->
-
-
-    <!--<div id="footer">-->
-        <!--<p class="footer-words">Hengzhi Yao <br>-->
-                <!--hy429@cornell.edu</p>-->
-    <!--</div>-->
-
-
 
 
 </body>

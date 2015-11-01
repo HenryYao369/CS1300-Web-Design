@@ -28,29 +28,34 @@
 
     <div id="container">
 
-        <h1 class="subtitle italic">In my spare time, I love travelling and hiking</h1>
+        <div id="content">
 
-        <div class="imageTravel">
+            <h1 class="subtitle italic">In my spare time, I love travelling and hiking</h1>
 
-            <img src="../img/travel-1.JPG" alt="travel" height="422" width="638">
-            <!--note: img tag is Inline, so cannot put outside of <p> etc.!! -->
+            <div class="imageTravel">
 
-            <p class="bold travel">Crucian Carp Back @Huangshan</p>
-        </div>
+                <img src="../img/travel-1.JPG" alt="travel" height="422" width="638">
+                <!--note: img tag is Inline, so cannot put outside of <p> etc.!! -->
 
-        <div class="imageTravel">
+                <p class="bold travel">Crucian Carp Back @Huangshan</p>
+            </div>
 
-            <img src="../img/travel-2.JPG" alt="travel" height="422" width="638">
-            <!--note: img tag is Inline, so cannot put outside of <p> etc.!! -->
+            <div class="imageTravel">
 
-
-            <p class="bold travel">Brightness Summit @Huangshan</p>
-
-
-            <p class="italic"> The pictures were taken by my father. </p>
-        </div>
+                <img src="../img/travel-2.JPG" alt="travel" height="422" width="638">
+                <!--note: img tag is Inline, so cannot put outside of <p> etc.!! -->
 
 
+                <p class="bold travel">Brightness Summit @Huangshan</p>
+
+
+                <p class="italic"> The pictures were taken by my father. </p>
+            </div>
+
+
+        </div>  <!--content-->
+
+        <?php include 'templates/footer.php' ?>
 
     </div> <!--container-->
 
