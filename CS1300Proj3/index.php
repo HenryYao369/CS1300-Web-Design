@@ -9,10 +9,10 @@
 </head>
 
 <body>
+
     <div id="banner">
 
         <h1>Hengzhi YAO</h1>
-
 
         <div id="nav">
             <span><a href="">Home</a>  </span>
@@ -25,8 +25,7 @@
         </div>
 
 
-    </div>
-
+    </div>  <!-- banner-->
 
 
     <div id="container">

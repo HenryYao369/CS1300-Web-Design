@@ -8,23 +8,7 @@
 </head>
 <body>
 
-    <div id="banner">
-
-        <h1>Hengzhi YAO</h1>
-
-
-        <div id="nav">
-            <span><a href="../index.php">Home</a>  </span>
-
-            <span><a href="projects.php">Projects</a>  </span>
-            <span><a href="courses.php">Courses</a>  </span>
-            <span><a href="traveling.php">Hobbies</a>  </span>
-            <span><a href="contact.php">Contact</a>  </span>
-            <span><a href="https://www.linkedin.com/in/hengzhiyao">LinkedIn</a>  </span>
-        </div>
-
-
-    </div>
+    <?php include 'templates/banner.php' ?>
 
     <div id="container">
 
