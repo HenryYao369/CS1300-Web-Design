@@ -19,21 +19,28 @@
 
         <form id="testForm" method="POST" action="prettyData.php">
             <p>Forms can contain simple content like paragraphs to explain the form's purpose, etc.</p>
+
             <input type="hidden" name="hiddenField" value="Some information">
+            <!--注意这里的hidden-->
+
             <p>Name: <input name="name" type="text"></p>
             <p>Major: <input name="major" type="text"></p>
+
             <p>Desired Skills:</p>
             <input type="checkbox" id="HTML5" name="skills[]" value="HTML5">HTML5
             <input type="checkbox" name="skills[]" value="CSS3">CSS3
             <input type="checkbox" name="skills[]" value="jquery">jQuery
+
             <p>Course Department:</p>
             <p id="radioButtons">
                 <input type="radio" class="radio" name="department" value="CS"><label>CS</label>
                 <input type="radio" class="radio" name="department" value="IS"><label>IS</label>
             </p>
+
             <input type="submit" value="Submit">
             <input type="reset" value="Reset">
         </form>
+
     </div> <!-- end of container div -->
     
 </body>

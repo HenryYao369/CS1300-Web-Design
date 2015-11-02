@@ -2,8 +2,11 @@
 // simple script to calculate the volume and surface area of a right cylinder.
 
 	// variables
-	$radius = floatval($_POST[radius]);
-	$height = floatval($_POST[height]);
+	$radius = floatval($_POST["radius"]);  // 0. 注意POST_ARRAY的用法，很关键！！！
+	// 1.变量加"" ！！（原文件有错）
+	// 2.type casting
+	$height = floatval($_POST["height"]);
+
 	$volume;
 	$surfaceArea;
     $resultsArray = array();

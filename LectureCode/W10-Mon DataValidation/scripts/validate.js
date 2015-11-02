@@ -7,10 +7,10 @@
 function validateRadius() {
     "use strict";
     // variables
-    var radius = document.forms.cylinderForm.radius.value;
+    var radius = document.forms.cylinderForm.radius.value;   // DOM模型
     
     // validation
-    if (isNaN(radius)) {
+    if (isNaN(radius)) {   // not a number -- JS是动态类型的语言
         alert("The radius value must be a number");
         return false;
     }
