@@ -3,6 +3,22 @@
     <head>
         <title>Btn Demo</title>
         <script src="jquery/jquery-1.11.3.min.js"></script>
+        <script>
+
+//            $(function(){
+//                        $("#btn").on("click",function(){
+//                            $("p").hide();
+//                        });
+//            });
+
+            $(function(){   //bug?
+                $("#colors").on("mouseover",function(){
+                    $("#colors").css('background-color','orange');
+                });
+            });
+
+
+        </script>
     </head>
     <body>
 
