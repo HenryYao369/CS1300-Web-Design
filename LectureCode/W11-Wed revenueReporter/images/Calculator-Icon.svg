@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    xmlns:cc="http://web.resource.org/cc/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    viewBox="0 0 778 1110"
+  >
+  <path
+      style="fill:#ffffff"
+      d="m0 0v1110h778v-1110h-778z"
+  />
+  <path
+      style="fill:#bcdeff"
+      d="m22 20v1h733l-20-1h-43-150-520z"
+  />
+  <path
+      style="fill:#0183ff"
+      d="m22 21v1069h733v-1069h-733z"
+  />
+  <path
+      style="fill:#8ec9ff"
+      d="m755 21v1069h1v-759-219-63l-1-28z"
+  />
+  <path
+      style="fill:#5aaeff"
+      d="m80 75v723 177 43l1.603 15 21.397 1h57 222 245 60l19.97-1.6 1.03-17.4v-47-183-710h-1v958h-626v-680-196-57l-1-25z"
+  />
+  <path
+      style="fill:#8ec9ff"
+      d="m81 75v1h626l-18-1h-36-128-444z"
+  />
+  <path
+      style="fill:#ffffff"
+      d="m81 76v957h626v-957h-626z"
+  />
+  <path
+      style="fill:#5aaeff"
+      d="m118 130v147h1v-103c0-12.47 3.81-32.54-1-44z"
+  />
+  <path
+      style="fill:#0183ff"
+      d="m119 130v147h560v-147h-560z"
+  />
+  <path
+      style="fill:#8ec9ff"
+      d="m679 130v147h-561v1h562v-104c0-12.47 3.81-32.54-1-44z"
+  />
+  <path
+      style="fill:#5aaeff"
+      d="m145 158v1h510c-11.69-4.91-32.27-1-45-1h-104-361z"
+  />
+  <path
+      style="fill:#ffffff"
+      d="m145 159v94h510v-94h-510z"
+  />
+  <path
+      style="fill:#5aaeff"
+      d="m412 371v1h98v43h1v-44h-99z"
+  />
+  <path
+      style="fill:#2c97ff"
+      d="m412 372v43h1c0-12.22 3.71-31.77-1-43z"
+  />
+  <path
+      style="fill:#0183ff"
+      d="m413 372v43h97v-43h-97z"
+  />
+  <path
+      style="fill:#bcdeff"
+      d="m134 373v1h97l-30-1h-67m136 0v1h96v44l1-33-1.6-10.97-25.4-1.03h-70m290 45h1v-44h98v44l1-33-1.6-10.97-15.4-1.03h-41-29l-11.4 1.03-1.6 11.97v32z"
+  />
+  <path
+      style="fill:#2c97ff"
+      d="m134 374v43h1c0-12.22 3.71-31.77-1-43z"
+  />
+  <path
+      style="fill:#0183ff"
+      d="m135 374v43h95v-43h-95z"
+  />
+  <path
+      style="fill:#5aaeff"
+      d="m230 374v43h-96v1h97c0-12.48 3.81-32.54-1-44z"
+  />
+  <path
+      style="fill:#0183ff"
+      d="m270 374v43h96v-43h-96m291 0v43h98v-43h-98z"
+  />
+  <path
+      style="fill:#bcdeff"
+      d="m412 415v1h99l-30-1h-69z"
+  />
+  <path
+      style="fill:#5aaeff"
+      d="m270 417v1h96l-29-1h-67m291 0v1h98l-30-1h-68z"
+  />
+  <path
+      style="fill:#2c97ff"
+      d="m134 459v46h1v-45h95l-29-1h-67z"
+  />
+  <path
+      style="fill:#5aaeff"
+      d="m230 459v46h1c0-13 4.01-34.06-1-46z"
+  />
+  <path
+      style="fill:#2c97ff"
+      d="m272 459v46h1v-45h95l-29-1h-67z"
+  />
+  <path
+      style="fill:#8ec9ff"
+      d="m368 459v46h1c0-13 4.01-34.06-1-46z"
+  />
+  <path
+      style="fill:#2c97ff"
+      d="m412 459v46h1v-45h97l-30-1h-68z"
+  />
+  <path
+      style="fill:#5aaeff"
+      d="m510 459v46h1c0-13 4.01-34.06-1-46z"
+  />
+  <path
+      style="fill:#bcdeff"
+      d="m560 459v46h1c0-13 4.01-34.06-1-46z"
+  />
+  <path
+      style="fill:#2c97ff"
+      d="m561 459v1h98l-30-1h-68z"
+  />
+  <path
+      style="fill:#bcdeff"
+      d="m659 459v46h1c0-13 4.01-34.06-1-46z"
+  />
+  <path
+      style="fill:#0183ff"
+      d="m135 460v45h95v-45h-95m138 0v45h95v-45h-95m140 0v45h97v-45h-97m148 0v45h98v-45h-98z"
+  />
+  <path
+      style="fill:#5aaeff"
+      d="m134 553v44h1v-43h95v43h1v-44h-97z"
+  />
+  <path
+      style="fill:#0183ff"
+      d="m135 554v43h95v-43h-95z"
+  />
+  <path
+      style="fill:#5aaeff"
+      d="m270 555v1h96l-29-1h-67z"
+  />
+  <path
+      style="fill:#bcdeff"
+      d="m366 555v44h-96v1h70l25.4-1.03 1.6-10.97-1-33z"
+  />
+  <path
+      style="fill:#5aaeff"
+      d="m412 555v1h98v43h1v-44h-99z"
+  />
+  <path
+      style="fill:#bcdeff"
+      d="m560 555v31c0 3.33-1.18 9.62 1.03 12.4 3.29 4.15 19.01 1.6 23.97 1.6h72v-1h-96c0-12.48 3.81-32.54-1-44z"
+  />
+  <path
+      style="fill:#5aaeff"
+      d="m561 555v1h96l-29-1h-67z"
+  />
+  <path
+      style="fill:#0183ff"
+      d="m270 556v43h96v-43h-96z"
+  />
+  <path
+      style="fill:#2c97ff"
+      d="m412 556v43h1c0-12.22 3.71-31.77-1-43z"
+  />
+  <path
+      style="fill:#0183ff"
+      d="m413 556v43h97v-43h-97m148 0v43h96v-43h-96z"
+  />
+  <path
+      style="fill:#bcdeff"
+      d="m134 597v1h97l-30-1h-67m278 2v1h99l-30-1h-69z"
+  />
+  <path
+      style="fill:#2c97ff"
+      d="m270 643v1h96l-29-1h-67z"
+  />
+  <path
+      style="fill:#bcdeff"
+      d="m366 643v44h1c0-12.48 3.81-32.54-1-44z"
+  />
+  <path
+      style="fill:#2c97ff"
+      d="m412 643v44h1v-43h97l-30-1h-68z"
+  />
+  <path
+      style="fill:#5aaeff"
+      d="m510 643v44h1c0-12.48 3.81-32.54-1-44z"
+  />
+  <path
+      style="fill:#bcdeff"
+      d="m560 643v44h1c0-12.48 3.81-32.54-1-44z"
+  />
+  <path
+      style="fill:#2c97ff"
+      d="m561 643v1h96l-29-1h-67z"
+  />
+  <path
+      style="fill:#0183ff"
+      d="m270 644v43h96v-43h-96m143 0v43h97v-43h-97m148 0v43h96v-43h-96z"
+  />
+  <path
+      style="fill:#2c97ff"
+      d="m134 645v44h1v-43h95l-29-1h-67z"
+  />
+  <path
+      style="fill:#5aaeff"
+      d="m230 645v44h1c0-12.48 3.81-32.54-1-44z"
+  />
+  <path
+      style="fill:#0183ff"
+      d="m135 646v43h95v-43h-95z"
+  />
+  <path
+      style="fill:#2c97ff"
+      d="m134 737v46h1c0-13 4.01-34.06-1-46z"
+  />
+  <path
+      style="fill:#0183ff"
+      d="m135 737v46h95v-46h-95z"
+  />
+  <path
+      style="fill:#5aaeff"
+      d="m230 737v46h1c0-13 4.01-34.06-1-46z"
+  />
+  <path
+      style="fill:#0183ff"
+      d="m272 737v46h96v-46h-96z"
+  />
+  <path
+      style="fill:#8ec9ff"
+      d="m368 737v46h1c0-13 4.01-34.06-1-46z"
+  />
+  <path
+      style="fill:#2c97ff"
+      d="m412 737v46h1c0-13 4.01-34.06-1-46z"
+  />
+  <path
+      style="fill:#0183ff"
+      d="m413 737v46h97v-46h-97z"
+  />
+  <path
+      style="fill:#5aaeff"
+      d="m510 737v46h1c0-13 4.01-34.06-1-46z"
+  />
+  <path
+      style="fill:#bcdeff"
+      d="m560 737v46h1c0-13 4.01-34.06-1-46z"
+  />
+  <path
+      style="fill:#0183ff"
+      d="m561 737v46h98v-46h-98z"
+  />
+  <path
+      style="fill:#bcdeff"
+      d="m659 737v46h1c0-13 4.01-34.06-1-46z"
+  />
+  <path
+      style="fill:#5aaeff"
+      d="m136 878v68h212v-1h-211v-66h211l-20-1h-43-149z"
+  />
+  <path
+      style="fill:#0183ff"
+      d="m137 879v66h211v-66h-211z"
+  />
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>

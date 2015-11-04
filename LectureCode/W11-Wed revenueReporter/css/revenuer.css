@@ -1,0 +1,165 @@
+/*-------------------------------------------------*/
+/*------style sheet for Web forms demo-------------*/
+/*-------------------------------------------------*/
+
+/*-------------------------------------------------*/
+/*------global styling-----------------------------*/
+/*-------------------------------------------------*/
+
+/* global reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* background image from http://bgfons.com/download/1393 */
+body {
+    /* background-color: #312c32; */
+    /* background-color: rgba(239,239,239,0.9); */
+    background: url("../images/leather_texture1393.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 100%;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+p.credit {
+    font-size: 80%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navSpan {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.navSpan:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+/*-------------------------------------------------*/
+/*------styling by section-------------------------*/
+/*-------------------------------------------------*/
+
+#banner {
+    background-color: #333333;
+    /* border-bottom: solid 5px #daad86; */
+    color: #ffffff;
+    font-family: Verdana, Arial, sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 900px;
+    min-height: 90px;
+    padding: 1em;
+    padding-bottom: 0;
+}
+
+#banner span {
+    border: solid 1px rgb(83,83,83);
+    border-bottom: none;
+    margin-bottom: 1px;
+    padding: 0.5em;
+    padding-bottom: 0;
+}
+
+#banner img {
+    /* float: left; */
+    display: block;
+    margin-bottom: 1em;
+}
+
+#container {
+    background-color: rgba(255,255,255,0.6);
+    /* background-color: #ffffff; */
+    /* border: solid 1px red; */
+    height: 100vh;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 900px;
+    padding: 1em;
+    padding-bottom: 0;
+}
+
+#revenueTable {
+    border-spacing: 0;
+    margin-top: 2em;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 500px;
+    min-width: 400px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+}
+
+#revenueTable th {
+    background-color: #efefef;
+    border-top: solid 1px #312c32;
+    border-bottom: solid 1px #312c32;
+    padding: 0.5em;
+    text-align: left;
+}
+
+#revenueTable td {
+    padding: 0.5em;
+}
+
+#results {
+    /* border: solid 1px red; */
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 250px;
+    max-width: 420px;
+    min-width: 300px;
+}
+
+/* #results h1 {
+    margin-bottom: 0.5em;
+    text-align: center;
+} */
+
+#results h3 {
+    margin-top: 3em;
+    margin-left: 1em;
+    padding-top: 1em;
+}
+
+#results img {
+    float: left;
+}
+
+#results ul {
+    list-style-type: none;
+    padding-left: 190px;
+}
+
+
+/*-------------------------------------------------*/
+/*------media queries------------------------------*/
+/*-------------------------------------------------*/
+
+@media only screen and (max-width: 400px) {
+    #banner {
+        font-size: 90%;
+    }
+    
+    #container {
+        border: solid 1px green;
+        font-size: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 90%;
+    }
+}
+
+
+
+
+
