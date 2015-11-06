@@ -1,0 +1,3 @@
+1) Set up *AMP locally on your computer. It's very important that you learn and understand how to use a local server for PHP development and other server side development. Follow the section slide on *AMP. TAs will be helpful for this.
+
+2) Complete the index.php page by answering the 'TODOs'. 
