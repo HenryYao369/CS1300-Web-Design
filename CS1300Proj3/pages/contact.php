@@ -20,11 +20,9 @@
             <p>If you think I am the right person for your business, don't hesitate to contact me at: hy429@cornell.edu
             </p>
 
-            <p>Or add me on <a href="https://www.linkedin.com/in/hengzhiyao">LinkedIn</a></p>
+            <p>Or add me on <a href="https://www.linkedin.com/in/hengzhiyao">LinkedIn</a>.</p>
             <br><br>
 
-
-            <p>You can also leave your contact and message here -- I'll get back to you soon!</p><br>
 
             <!--  Form code adapted from Cornell CS1300 lab section code-->
             <form action="contact.php" method="POST">
@@ -49,50 +47,43 @@
             <div id="form-response">
                 <?php
                 // Form/PHP code adapted from Cornell CS1300 lab section code
-                // var_dump($_POST); //Print the entire POST variable (if you want to see what's inside)
 
                 if (isset($_POST['submit'])) {
                     $username = $_POST['username'];
                     $email = $_POST['email'];
                     $message = $_POST['message'];
 
-                    echo "<p>Your response has been recorded -- Thank you:)</p>";
+//                    echo "<p>try submit -- debug purposes</p>";
 
-                    if (isset($username) && isset($email) && isset($message)) {
-                        echo "<p>all fields were submitted</p>";
+                    if (!empty($username) && !empty($email) && !empty($message)) {
+                        echo "<p class='bold'>Hey $username ($email), </p>";
+                        echo "<p class='bold'>Your response has been recorded! Thank you:)</p>";
+                        echo "<p class='bold'>The message you leave is: $message</p>";
+                    }
+                    else{
+
+                        if (empty($username)) {
+                            echo "<p class='error'>Username is missing!</p>";
+                        }
+
+                        if (empty($email)) {
+                            echo "<p class='error'>Please give me an email so I can contact you later!</p>";
+                        }
+
+                        if (empty($message)) {
+                            echo "<p class='error'>Please leave a message!</p>";
+                        }
                     }
 
-                    if (empty($username)) {
-                        echo "<p>username is missing</p>";
-                    }
-
-                    if (empty($email)) {
-                        echo "<p>email is missing</p>";
-                    }
-
-                    if (empty($message)) {
-                        echo "<p>no message</p>";
-                    }
-
-                    if (strlen($username) > 3) {
-                        echo "<p>username is greater than 3 characters</p>";
-                    } else {
-                        echo "<p>username is not greater than 3 characters</p>";
-                    }
-
-                    if (strlen($message) <= 50) {
-                        echo "<p>message is 50 characters or less</p>";
-                    } else
-                        echo "<p>message is more than 50 characters.</p>";
 
                 } else {
-                    // echo "<p>form was not submitted</p>";
-                    // do something here, or not
+                    echo "<p>You can also leave your contact and message here.</p>";
+                    echo "<p>I'll get back to you soon!</p>";
                 }
+
                 ?>
 
-            </div>
-
+            </div>  <!--  <div id="form-response">-->
 
         </div>  <!--content-->
 

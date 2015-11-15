@@ -247,5 +247,11 @@ button {
 #form-response {
     margin: 0 auto;
     width: 400px;
+    line-height: 0.9;
+    /*font-size: 20px;*/
+}
+
+.error {
+    color: red;
     line-height: 0.7;
 }
